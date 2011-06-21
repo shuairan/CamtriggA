@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <EditTextPreference android:summary="The URL of the video which should be played" android:title="Video URL" android:key="video_url" android:defaultValue="http://192.168.1.126:81/videostream.cgi?user=admin&amp;pwd="></EditTextPreference>
+        <EditTextPreference android:title="Port" android:key="port" android:defaultValue="4444" android:summary="listen on PORT for event triggering"></EditTextPreference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

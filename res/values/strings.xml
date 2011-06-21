@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TheListenerActivity!</string>
+    <string name="app_name">TheListener</string>
+    <string name="video_start">Start Video</string>
+    <string name="video_stop">Stop Video</string>
+</resources>

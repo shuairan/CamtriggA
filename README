@@ -1,0 +1,2 @@
+CamTriggA is a android MJPEG-Player (Motion JPEG) which supports buffering via file. It opens a socket connection and listens for an incoming event, which can trigger an alarm sound and start the video playback (e.g. from a security cam that streams in MJPEG).
+The MJPEG-Player code is based on the mjpeg-sample from here: http://www.anddev.org/post20629.html#p20629

@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="sr.listener"
-      android:versionName="0.0.7" android:versionCode="1">
+      package="org.problemloeser.cta"
+      android:versionName="0.1.0 beta1" android:versionCode="1">
     <uses-sdk android:minSdkVersion="7" />
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name=".TheListenerActivity"
-                  android:label="@string/app_name">
+        <activity android:name=".CamtriggaActivity" 
+                  android:label="@string/app_name" 
+                  android:screenOrientation="landscape" 
+                  android:configChanges="keyboard|screenLayout|orientation">
+                  <!-- android:theme="@android:style/Theme.NoTitleBar" -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:label="Preferences" android:name="Preferences"></activity>
-
+        <activity android:label="Preferences" android:name="org.problemloeser.cta.Preferences"></activity>
     </application>
 </manifest>
